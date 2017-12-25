@@ -1,0 +1,82 @@
+html, body {
+    width: 100%;
+    min-width: 370px;
+    min-height: 100%;
+    font-size: 12pt;
+    background-color: rgb(142, 193, 212);
+}
+
+body {
+    text-align: center;
+}
+
+#content_area {
+    width: 60%;
+    margin: 20px auto 0 auto;
+}
+
+#count-down {
+    min-height: 30px;
+}
+
+#main_menu, #add_question, #take_exam {
+    display: none;
+}
+
+a.app_link {
+    cursor: pointer;
+    margin: 0 20px 0 20px;
+}
+
+#current_test_question, #count-down {
+    display: none;
+}
+
+#current_test_question {
+    margin-top: 15px;
+}
+
+#current_test_question > p {
+    text-align: left !important;
+}
+
+#current_test_question .form-group label,
+#current_test_question .form-group textarea {
+    width: 100%;
+}
+
+#takeExamLink {
+    display: none;
+}
+
+#message {
+    display: none;
+    background-color: #ffe3ab;
+    width: 100%;
+    height: 100%;
+}
+#messageWrapper {
+    position: relative;
+    z-index: 100000;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    height: 50px;
+    min-height: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 0.8em;
+}
+
+.formTip {
+    font-size: 0.7em;
+    color: red;
+}
+
+.explaination {
+    font-size: 0.6em;
+}
+
+.question_template_question {
+    margin-left: 10px;
+}

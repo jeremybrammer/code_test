@@ -1,0 +1,7 @@
+{
+    "name": "root/application",
+    "require": {
+        "twbs/bootstrap": "^3.3",
+        "vlucas/valitron": "^1.4"
+    }
+}

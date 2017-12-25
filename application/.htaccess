@@ -1,0 +1,6 @@
+#Deny from all
+Allow from all
+
+#RewriteEngine on
+#RewriteCond $1 !^(index\.php|images|assets|robots\.txt)
+#RewriteRule ^(.*)$ /index.php/$1 [L]
